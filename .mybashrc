@@ -1,5 +1,5 @@
 
 ip=`/sbin/ifconfig |grep inet|grep -v 127.0.0.1|grep -v inet6|awk '{print $2}'|tr -d "addr:"`
-export PS1='[\[\e[31m\]\u\[\e[0m\]@\[\e[33m\]${ip}\[\e[0m\]:\[\e[32m\]\w\[\e[0m\]]$ '
+export PS1='[\[\e[31m\]\u\[\e[0m\]@\[\e[33m\]${ip}\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]]$ '
 
 alias make="make -j4"
