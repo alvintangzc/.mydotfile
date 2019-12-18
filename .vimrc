@@ -157,16 +157,18 @@ set foldcolumn=1
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Enable syntax highlighting
 syntax enable
-colorscheme monokai
+set background=dark
+colorscheme molokai
 " Enable 256 colors palette
 set t_Co=256
 
-"set background=dark
 
 " Set utf8 as standard encoding and en_US as the standard language
 set fileencodings=utf-8,zh_CN.GB18030
-set termencoding=encoding
-set encoding=prc
+set fileencoding=utf-8
+set encoding=utf8
+
+" set termencoding=encoding
 
 " Use Unix as the standard file type
 set ffs=unix,dos,mac
